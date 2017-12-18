@@ -127,7 +127,7 @@ a:hover {
 ================================================== */
 .hero {
   /* background-image: url(../img/cover.jpg); */
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/cover.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../img/cover.jpg);
   background-size: cover;
   color: white;
   width: 100%;
@@ -136,7 +136,7 @@ a:hover {
 }
 
 .myName {
-  margin-top: 6rem;
+  margin-top: 10rem;
   font-size: 30rem;
   font-family: specialValentine;
   text-align: center;
@@ -154,6 +154,11 @@ a:hover {
   height: 100%;
   left: 0;
   top: 0;
+}
+hr.line{
+	border-top: 8px solid #6C7A89;
+  width: 20%;
+  margin-top: 7rem;
 }
 /* ==================================================
   Header Styling
