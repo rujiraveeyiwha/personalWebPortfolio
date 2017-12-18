@@ -173,9 +173,13 @@ header.masthead {
   header.masthead p {
     font-weight: 300;
   }
+
   @media (min-width: 768px) {
     header.masthead p {
       font-size: 1.15rem;
+      }
+    header.masthead h1 {
+        font-size: 11rem;
       }
   }
   @media (min-width: 992px) {
