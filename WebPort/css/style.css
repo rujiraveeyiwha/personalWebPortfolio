@@ -368,10 +368,23 @@ header.masthead {
         max-width: 100%;
         float: left;
       }
+      .section-two section figure{
+        background-attachment:fixed;
+        margin-top:20px;
+        margin-bottom:-20px;
+      }
+    }
+
+    @media (min-width: 575px) and (max-width: 767px){
+      .section-two section figure{
+        background-attachment:fixed;
+        margin-top:20px;
+        margin-bottom:-20px;
+      }
     }
 
 
-    @media (max-width: 767px) {
+    /* @media (max-width: 767px) {
       .section-two section figure{
         background-attachment:scroll;
         margin-top:20px;
@@ -385,4 +398,4 @@ header.masthead {
     	.section-two section:last-child article{
         padding-left:0;
       }
-    }
+    } */
