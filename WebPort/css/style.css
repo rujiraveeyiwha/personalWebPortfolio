@@ -8,10 +8,27 @@ html {
   width: 100%;
   height: 100%; }
 
-  @font-face {
-      font-family: specialValentine;
-      src: url("../font/SpecialValentine.ttf");
-  }
+@font-face {
+  font-family: specialValentine;
+  src: url("../font/SpecialValentine.ttf");
+}
+@font-face {
+  font-family: Vision;
+  src: url("../font/Vision.otf");
+}
+@font-face {
+  font-family: Vision-Thin;
+  src: url("../font/Vision-Thin.otf");
+}
+@font-face {
+  font-family: Vision-Light;
+  src: url("../font/Vision-Light.otf");
+}
+@font-face {
+  font-family: Vision-Bold;
+  src: url("../font/Vision-Bold.otf");
+}
+
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
@@ -74,7 +91,47 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #212529; }
+  -webkit-tap-highlight-color: #212529;
+}
+
+.welcome {
+  background-color: #2C3E50;
+  /* font-family: Vision; */
+}
+
+.welcome p {
+  word-spacing: 2px;
+  letter-spacing: 10px;
+  font-size: 0.625rem;
+  color: #ABB7B7;
+}
+.welcome h1 {
+  font-family: Vision;
+  color: white;
+  /* font-size: 5rem; */
+}
+
+@media (min-width: 768px) {
+  .welcome h1 {
+    font-family: Vision;
+    color: white;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .welcome h1 {
+    font-family: Vision;
+    color: white;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .welcome h1 {
+    font-family: Vision;
+    color: white;
+    font-size: 4rem;
+  }
+}
 
 
 header.masthead {
@@ -89,15 +146,6 @@ header.masthead {
   width: 100%;
   height: 100vh;
 }
-/*
-  .myName {
-    font-size: 10rem;
-    font-family: specialValentine;
-    text-align: center;
-    color: white;
-    text-shadow: 0 1px black;
-    line-height: 0.5;
-  } */
 
   header.masthead hr {
     margin-top: 30px;
