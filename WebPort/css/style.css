@@ -111,6 +111,7 @@ body {
   /* font-size: 5rem; */
 }
 
+
 @media (min-width: 768px) {
   .welcome h1 {
     font-family: Vision;
@@ -133,6 +134,10 @@ body {
   }
 }
 
+.inner-outline {
+    outline: 3px solid #BDC3C7;
+    outline-offset: -20px;
+    }
 
 header.masthead {
   padding-top: 9rem;
