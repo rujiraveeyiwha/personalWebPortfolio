@@ -34,7 +34,6 @@ body {
 
 hr {
   border-width: 3px;
-  /* border-color: #ECF0F1; */
 }
 
 hr.light {
@@ -96,7 +95,6 @@ body {
 
 .welcome {
   background-color: #2C3E50;
-  /* font-family: Vision; */
 }
 
 .welcome p {
@@ -108,7 +106,6 @@ body {
 .welcome h1 {
   font-family: Vision;
   color: white;
-  /* font-size: 5rem; */
   text-align: center;
 }
 
