@@ -136,16 +136,53 @@ body {
   }
 }
 
-.bio {
-  background-color: white;
-}
 
 .bioLeft {
-  background-color: #BDC3C7;
+  background-color: white;
+  float: right;
 }
+
+.headName {
+    font-family: Helvetica;
+    text-align: right;
+    font-size: 2rem;
+    color: #67809F;
+}
+.subHeadName {
+  text-align: right;
+}
+
 .bioRight {
   background-color: white;
+  text-align: left;
+  /* padding: 70px 0; */
 }
+.bioImage {
+  width: 100%;
+  float: none;
+}
+
+
+@media (max-width: 768px) {
+  .bioLeft {
+    background-color: white;
+    float: center;
+  }
+  .headName {
+    text-align: center;
+  }
+  .subHeadName {
+    text-align: center;
+  }
+  .bioCenter {
+    text-align: center;
+  }
+  .bioImage{
+    width: 50%;
+    float: none;
+  }
+}
+
 
 
 .inner-outline {
