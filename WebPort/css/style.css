@@ -162,6 +162,53 @@ body {
   float: none;
 }
 
+.skill {
+  background-color: #ECECEC;
+}
+.skill-heading {
+  font-family: Vision;
+}
+
+.progress-bars{
+  margin: auto;
+  background: #fff;
+  width: 120px;
+  height: 120px;
+  transform: rotate(45deg);
+  position: relative;
+}
+.progress-bars h2 {
+  line-height: 120px;
+  text-align: center;
+  transform: rotate(-45deg);
+}
+.progress-bars:before{
+  position: absolute;
+  content: "";
+  border: solid 5px #595959;
+  border-width: 5px 0px 0px 5px;
+  width: 30px;
+  height: 30px;
+  top: -9px;
+  left: -9px;
+  bottom: -9px;
+  right: -9px;
+  z-index: 10;
+}
+.progress-bars:after{
+  position: absolute;
+  content: "";
+  border: solid 5px #2bb0ef; /* progress color */
+  border-width: 5px 5px 5px 5px;
+  width: 140px;
+  height: 140px;
+  top: -9px;
+  left: -9px;
+  bottom: -9px;
+  right: -9px;
+}
+
+
 
 @media (max-width: 768px) {
   .bioLeft {
