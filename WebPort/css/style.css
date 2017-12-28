@@ -178,10 +178,6 @@ body {
   font-size: 1rem;
   margin-top: 1.5rem;
 }
-.vl {
-    border-right: 3px solid green;
-    height: 20px;
-}
 
 
 
@@ -205,9 +201,16 @@ body {
     margin-top: -50px;
     margin-bottom: -20px;
   }
+  .skillsIcon {
+    min-width: 60%;
+  }
 }
 
-
+@media (min-width: 767px) {
+  .skillsIcon {
+    min-width: 35%;
+  }
+}
 
 .inner-outline {
   outline: 3px solid #BDC3C7;
