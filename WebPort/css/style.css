@@ -367,11 +367,6 @@ header.masthead {
       min-height:593px;
     }
 
-    .section-two section:hover img{
-      -webkit-transform:scale(1.3);
-      transform:scale(1.3);
-    }
-
     .section-two section article{
       padding-left:14%;
       padding-right:90px;
