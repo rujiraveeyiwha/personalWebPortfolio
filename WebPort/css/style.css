@@ -337,7 +337,7 @@ body {
 .timeline-heading h4 {
     font-weight: 400;
     padding: 0 15px;
-    color: #4679bd;
+    color: #22313F;
     margin-top: 0.5rem;
 }
 .timeline-body > p, .timeline-body > ul {
@@ -410,6 +410,9 @@ body {
     }
     .timeline > li.timeline-inverted > .timeline-badge {
         left: 28px;
+    }
+    .timeline-panel {
+      margin-right: 0.5rem;
     }
 }
 
