@@ -94,7 +94,7 @@ body {
 }
 
 .welcome {
-  background-color: #224272;
+  background-color: #2C3E50;
   text-align: center;
 }
 
@@ -165,12 +165,7 @@ body {
 .skill {
   background-color: #ECECEC;
 }
-.skill-heading {
-  font-family: Vision-Bold;
-  text-align: center;
-  font-size: 2.5rem;
-  margin-left: -50px;
-}
+
 .skillsIcon {
   width: 30%;
 }
@@ -231,8 +226,9 @@ body {
 }
 
 .exp {
-  background-color: #ECECEC;
+  background-color: #2C3E50;
 }
+
 
 .timeline {
     list-style: none;
@@ -342,6 +338,7 @@ body {
     font-weight: 400;
     padding: 0 15px;
     color: #4679bd;
+    margin-top: 0.5rem;
 }
 .timeline-body > p, .timeline-body > ul {
     padding: 10px 15px;
