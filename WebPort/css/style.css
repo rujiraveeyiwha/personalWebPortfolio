@@ -416,7 +416,7 @@ body {
 }
 
 .port {
-  background-color: #2C3E50;
+  background-color: #34495E;
 }
 
 .gal {
@@ -439,9 +439,12 @@ body {
     width: 60%;
 
   }
-
-
 }
+
+.photo {
+  background-color: #f7f7f8;
+}
+
 
 
 header.masthead {
