@@ -229,7 +229,6 @@ body {
   background-color: #2C3E50;
 }
 
-
 .timeline {
     list-style: none;
     padding: 10px 0;
@@ -414,6 +413,28 @@ body {
     .timeline-panel {
       margin-right: 0.5rem;
     }
+}
+
+.port {
+  background-color: #2C3E50;
+}
+
+.gal {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	}
+
+.gal img {
+  width: 100%; padding: 7px 0;
+}
+@media (max-width: 500px) {
+	.gal {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
 }
 
 
