@@ -533,6 +533,9 @@ header.masthead {
     .defineBG {
       background-image: url(../img/emile-perron-190221.jpg)
     }
+    .defineBG2 {
+      background-image: url(../img/reverse.jpg);
+    }
     /* .section-two{ background-color:#f7f7f8; margin-top:80px; overflow:hidden} */
     .section-two{
       background-color:#f7f7f8;
