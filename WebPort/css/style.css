@@ -626,16 +626,13 @@ header.masthead {
       }
     }
 
-    /* @media (min-width: 575px) and (max-width: 767px){
+    @media (min-width: 575px) and (max-width: 767px){
       .section-two section figure{
         background-attachment:fixed;
         margin-top:20px;
         margin-bottom:-20px;
       }
-    } */
-
-
-
+    }
 
     .btn-center{
       width: 50%;
