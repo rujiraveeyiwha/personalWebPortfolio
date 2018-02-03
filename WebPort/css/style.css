@@ -620,7 +620,7 @@ header.masthead {
         float: left;
       }
       .section-two section figure{
-        /* background-attachment:fixed; */
+        background-attachment:fixed;
         margin-top:20px;
         margin-bottom:-20px;
       }
